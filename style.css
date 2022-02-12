@@ -1,0 +1,23 @@
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    text-align: center;
+    
+    font-size: 30px;
+    margin:0;
+}
+.container{ 
+    background-color: aquamarine;
+   
+    width: 100%;
+    margin: 25px;
+}
+.draggable{
+    background-color: aliceblue;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: move;
+}
+.dragging{
+    opacity: 0.6;
+}
